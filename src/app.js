@@ -67,12 +67,6 @@ app.get('/weather',(req, res)=>{
 
         })
     })
-
-    // res.send([{
-    //     location: 'Boston',
-    //     forecast:'90 degrees and cloudly',
-    //     address: req.query.address
-    // }])
 })
 
 app.get('/products',(req, res)=>{
@@ -106,5 +100,5 @@ app.get('*',(req, res) => {
 })
 
 app.listen(port, () =>{
-    console.log('Server up and running on port' + port + '!')
+    console.log('Server up and running on port ' + port + '!')
 })
