@@ -67,12 +67,6 @@ app.get('/weather',(req, res)=>{
 
         })
     })
-
-    // res.send([{
-    //     location: 'Boston',
-    //     forecast:'90 degrees and cloudly',
-    //     address: req.query.address
-    // }])
 })
 
 app.get('/products',(req, res)=>{
